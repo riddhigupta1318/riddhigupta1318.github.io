@@ -34,7 +34,7 @@ const About = () => {
     <section id="about-section" ref={aboutRef} className={styles.about}>
       <div className={visible ? styles.aboutInfo: styles.noabout}>
         <div className = {styles.mydetails}>
-          <img src="\src\resources\profilepic.jpeg" alt="Riddhi Gupta" className={styles.aboutProfilePicture} />
+          <img src="\images\about\profilepic.jpeg" alt="Riddhi Gupta" className={styles.aboutProfilePicture} />
           <div className={styles.bio}>
             <p className={styles.bioAbout}>ABOUT ME</p>
             <p>

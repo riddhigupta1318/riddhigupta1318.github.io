@@ -5,8 +5,8 @@ const sections = [
   'home-section',
   'about-section',
   'projects-section',
-  'experience-section',
-  'contact-section', // Replace with your contact section ID if different
+  // 'experience-section',
+  // 'contact-section'
 ];
 
 const Navbar = () => {
@@ -68,12 +68,12 @@ const Navbar = () => {
             SKILLS
           </a>
         </span> */}
-        <span className={`${currentSection === 'projects-section' ? styles.active : ''}`}>
+        <span style={{paddingRight: "20px"}} className={`${currentSection === 'projects-section' ? styles.active : ''}`}>
           <a href="#projects-section" onClick={handleScrollToSection}>
             PROJECTS
           </a>
         </span>
-        <span className={`${currentSection === 'experience-section' ? styles.active : ''}`}>
+        {/* <span className={`${currentSection === 'experience-section' ? styles.active : ''}`}>
           <a href="#experience-section" onClick={handleScrollToSection}>
             EXPERIENCE
           </a>
@@ -82,7 +82,7 @@ const Navbar = () => {
           <a href="#contact-section" onClick={handleScrollToSection}>
             CONTACT
           </a>
-        </span>
+        </span> */}
       </div>
     </nav>
   );
