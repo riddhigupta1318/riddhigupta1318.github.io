@@ -1,0 +1,86 @@
+.about {
+  display: flex;
+  flex-direction: column; /* Change to column */
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  height: auto;
+  background-image: url('../resources/f13.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: rgb(5, 5, 5);
+  
+} 
+
+.aboutInfo {
+  display: flex;
+  flex-direction: column; /* Change to row */
+  align-items: center;
+  justify-content: space-between;
+  height: auto; /* Change to auto */
+  margin-top: 50px;
+  transition: opacity 0.8s ease-in-out;
+  width: 60%;
+  background-color: rgba(225, 207, 183, 0.292); ; /*rgba(136, 126, 126, 0.1); */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.635); 
+  /* background-color: rgba(214, 207, 207, 0.3); 
+  box-shadow: 0px 5px 10px rgba(197, 184, 184, 0.7);   */
+  padding:30px;
+}
+
+.bioAbout {
+  font-size: 40px !important;
+  font-weight: 500;
+  margin: unset;
+}
+
+.mydetails {
+  display: flex;
+  flex-direction: row; /* Change to row */
+}
+
+.myskills {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: flex-end;
+  /* background-color: rgba(179, 177, 177, 0.3); */
+}
+
+.aboutProfilePicture {
+  width: 200px; /* Set image width */
+  height: 200px; /* Set image height */
+  
+  margin-top: 30px;
+}
+
+.bio {
+  color: rgba(100, 95, 95, 0.982);
+  flex: 1; /* Allow bio content to fill remaining space */
+}
+
+.bio h2 {
+  margin-bottom: 15px; /* Add margin below the heading */
+  font-size: 24px; /* Set font size for the heading */
+}
+
+.bio p {
+  font-size: 16px; /* Set font size for paragraphs */
+  line-height: 1.5; /* Adjust line spacing for better readability */
+  margin-bottom: 10px; /* Add margin below paragraphs */
+}
+
+.bio a {
+  color: rgba(100, 95, 95, 0.982);/* rgb(225, 211, 193);/*rgb(216, 193, 163); /* Set link color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.bio a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.noabout {
+  opacity: 0; /* Initial opacity set to 0 for invisible state */
+  transition: opacity 0.8s ease-in-out; /* Adjust transition properties as needed */
+  min-height: 100vh;
+}

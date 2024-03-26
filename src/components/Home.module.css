@@ -1,0 +1,137 @@
+.home {
+    display: flex;
+    flex-direction: column; /* Change to column */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../resources/wp7453551.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-bottom: 40px; /*To account for page loading*/
+  }
+  
+  .containerOne {
+    display: flex;
+    flex-direction: column; /* Change to row */
+    align-items: center;
+    height: auto; /* Change to auto */
+    margin-top: 50px;
+    margin-bottom: 20px; /* Add margin bottom to separate containers */
+    transition: opacity 0.8s ease-in-out;
+  }
+  
+  .hi {
+    opacity:90%;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 40px;
+    display: 'inline-block';
+    margin: 0;
+    text-shadow: 1px 1px 2px #000000, 0 0 0 #000000, 1px 1px 2px #000000; /* 3D effect */
+  }
+  
+  .rids{
+    opacity:100%;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px #000000, 0 0 0 #000000, 1px 1px 2px #000000; /* 3D effect */
+    
+  }
+  
+  /* .suresh {
+    opacity:60%;
+    font-family: 'Poppins', sans-serif;
+    color: #bef1fd;;
+    opacity:'85%';
+    font-size: 60px;
+    font-weight: 700;
+  } */
+  
+  .roles {
+    opacity: 100%;
+    color: black;
+    font-Size: 40px;
+    font-Weight: 600;
+    text-shadow: 1px 1px 2px #000000, 0 0 0 #000000, 1px 1px 2px #000000; /* 3D effect */
+  }
+  
+  .resume a{
+    color: gainsboro; /* Adjust color as desired */
+    text-decoration: none; /* Remove default underline */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    opacity: 100%;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 10px rgba(255, 255, 255, 1); /* Shadow properties */
+    border-radius: 15px; /* Rounded corners */
+    padding: 5px;
+  
+  }
+  
+  .resume a:hover{
+    background-color: gainsboro; /* greyish background */
+    color: black;  /* Black text */
+    border-radius: 20px; /* Add rounded corners */
+    padding: 5px 10px;  /* Add some padding for visual balance */
+    transition: all 0.2s ease-in-out; 
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 100%;
+  }
+  
+  /* Style the paragraph text */
+  .noDisplay {
+  font-size: 14px;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+  opacity: 0; /* Initial opacity set to 0 for invisible state */
+  transition: opacity 0.9s ease-in-out; /* Adjust transition properties as needed */
+  }
+  
+  
+  /* Style the social links container */
+  .socialLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  transition: opacity 0.9s ease-in-out;
+  padding-left: 15px;
+  }
+  
+  /* Style the social media icons */
+  .socialLinks a {
+  margin-right: 10px;
+  color: black;
+  font-size: 20px;
+  transition: transform 0.2s ease; /* Adjust transition as needed */
+  }
+  
+  .socialLinks a:hover {
+  font-size: 40px;
+  transition: font-size 0.2s ease;
+  transform: translateY(-5px); /* Adjust vertical movement for pop-up effect */
+  box-shadow: 0px 2px 5px rgb(255, 255, 255); /* Subtle shadow for depth */
+  }
+  
+  
+  .downArrow{
+    /* display: flex;
+    opacity: 1;
+    height: 70px;
+    width:70px;
+    background-color: black; */
+    height: 60px;
+    width:60px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../resources/Arrow-Down.gif");
+  }
+  
+  

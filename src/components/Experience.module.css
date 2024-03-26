@@ -1,0 +1,217 @@
+/*
+
+.experience {
+    display: flex;
+    flex-direction: column; /* Change to column 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../resources/f13.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative; /* Add relative positioning 
+}
+.container {
+    position: relative;
+    overflow: hidden; /* Hide overflow 
+  }
+  
+.imageContainer {
+    float: right; /* Align the image container to the right 
+    margin-left: 700px; /* Add some margin to separate from other content 
+
+.circle1 {
+    width: 75px;
+    height: 75px;
+    background-color:rgba(198, 171, 135, 0.959); /* Adjust color as needed 
+    border-radius: 50%; /* Create circle 
+    position: absolute;
+    left: 290px;
+    top: 20%;
+    transform: translateY(-50%);
+    border-style:ridge;
+    z-index: 1;
+}
+.circle2 {
+    width: 75px;
+    height: 75px;
+    background-color:rgba(198, 171, 135, 0.959); /* Adjust color as needed 
+    border-radius: 50%; /* Create circle 
+    position: absolute;
+    left: 290px;
+    top: 40%;
+    transform: translateY(-50%);
+    border-style:ridge;
+    z-index: 1;
+}
+.circle3 {
+    width: 75px;
+    height: 75px;
+    background-color:rgba(198, 171, 135, 0.959); 
+    border-radius: 50%; 
+    position: absolute;
+    left: 290px;
+    top: 60%;
+    transform: translateY(-50%);
+    border-style:ridge;
+    z-index: 1;
+}
+.circle4 {
+    width: 75px;
+    height: 75px;
+    background-color:rgba(198, 171, 135, 0.959); 
+    border-radius: 50%; 
+    position: absolute;
+    left: 290px;
+    top: 80%;
+    transform: translateY(-50%);
+    border-style:ridge;
+    z-index: 1;
+}
+.rectangle1 {
+    width: 300px;
+    height: 50px;
+    background-color:rgba(198, 171, 135, 0.822); 
+    position: absolute;
+    left: 350px; 
+    top: 20%;
+    transform: translateY(-50%);
+    border-top-right-radius: 15px; 
+    border-bottom-right-radius: 15px; 
+    border-radius: 15px;
+    border-style:ridge;
+    z-index: 0;
+
+}
+.rectangle2 {
+    width: 300px;
+    height: 50px;
+    background-color: rgba(198, 171, 135, 0.137); /* Adjust color as needed 
+    position: absolute;
+    left: 350px; /* Adjust position as needed 
+    top: 40%; /* Adjust position as needed 
+    transform: translateY(-50%);
+    border-top-right-radius: 15px; /* Adjust the curve 
+    border-bottom-right-radius: 15px; /* Adjust the curve 
+    border-radius: 15px;
+    border-style:ridge;
+    z-index: 0;
+
+}
+.rectangle3 {
+    width: 300px;
+    height: 50px;
+    background-color: rgba(198, 171, 135, 0.137); /* Adjust color as needed 
+    position: absolute;
+    left: 350px; /* Adjust position as needed 
+    top: 60%; /* Adjust position as needed 
+    transform: translateY(-50%);
+    border-top-right-radius: 15px; /* Adjust the curve 
+    border-bottom-right-radius: 15px; /* Adjust the curve 
+    border-radius: 15px;
+    border-style:ridge;
+    z-index: 0;
+
+}
+.rectangle4 {
+    width: 300px;
+    height: 50px;
+    background-color: rgba(198, 171, 135, 0.137); /* Adjust color as needed 
+    position: absolute;
+    left: 350px; /* Adjust position as needed 
+    top: 80%; /* Adjust position as needed 
+    transform: translateY(-50%);
+    border-top-right-radius: 15px; /* Adjust the curve 
+    border-bottom-right-radius: 15px; /* Adjust the curve 
+    border-radius: 15px;
+    border-style:ridge;
+    z-index: 0;
+
+}
+
+
+*/
+.experience {
+    background-color: #fff; /* White background */
+    display: flex; /* Arrange projects in columns */
+    flex-wrap: wrap; /* Wrap items when container overflows */
+    justify-content: space-around; /* Distribute projects evenly */
+    align-items: center;
+    min-height: 100vh;
+    height: auto;
+    padding-top: 40px;
+    background-image: url('../resources/f13.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.heading {
+    display: flex;
+    text-align: center; /* Center the heading */
+    font-size: 40px; /* Adjust heading size */
+    font-weight: 500;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.align {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-around;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px; /* Adjust height as needed */
+  }
+  
+.chart {
+    display: flex;
+    flex-direction: row; /* Arrange bars horizontally */
+  }
+  
+.bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px; /* Adjust horizontal spacing */
+  }
+  
+.bar:last-child {
+    margin-right: 100; /* Remove margin for last bar */
+  }
+  
+.block {
+    width: 150px;
+    height: 100px; /* Adjust bar height based on your data */
+    background-color: #ddd;
+    transform: rotateY(45deg); /* Rotate for 3D block view */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    transition: transform 0.3s ease-in-out; /* Optional: hover effect */
+  }
+  
+.block:hover {
+    transform: rotateY(45deg) scale(1.1); /* Optional: scale on hover */
+  }
+  
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: burlywood;
+  }
+  
+.pipe {
+    width: 10px; /* Adjust pipe thickness */
+    height: 80px; /* Adjust pipe length */
+    background-color: #ddd;
+    margin-top: 10px; /* Adjust spacing between circle and pipe */
+    margin-bottom: 10px; /* Adjust spacing between pipe and block */
+    border-radius: 5px; /* Adjust for rounded corners */
+  }
+  
+

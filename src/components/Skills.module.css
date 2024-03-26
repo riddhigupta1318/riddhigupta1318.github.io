@@ -1,0 +1,101 @@
+.skills {
+  display: flex; /* Make "skills" section a flexbox container */
+  flex-wrap: wrap; /* Allow icons to wrap to multiple lines */
+  justify-content: space-between; /* Distribute icons evenly */
+  width: 100%;
+  margin-top: 25px;
+  color: rgba(202, 178, 178, 0.82)smoke /*rgb(82, 78, 78)*/
+}
+
+.iconCarousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: row;
+  /* width: fit-content; Adjust width as needed */
+  width: 100%;
+  margin: 0 auto; /* Center horizontally */
+  text-align: center; /* Center text below the icon */
+}
+
+.arrow {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.arrowright,
+.arrowleft {
+  height:20px;
+  width: 20px;
+}
+
+.arrowleft{
+  float: left;
+}
+
+.arrowright{
+  float: right;
+}
+
+.arrow:hover,
+.arrow:focus {
+  opacity: 1;
+}
+
+.arrow.disabled {
+  cursor: default;
+  opacity: 0.2;
+}
+
+.iconContainer {
+  display: flex;
+  flex-wrap: wrap; /* Allow icons to wrap to multiple lines */
+  justify-content: center; /* Distribute icons evenly */
+}
+
+.icons {
+  width: 40px; /* Adjust icon size as needed */
+  height: 40px;
+  text-align: center; /* Center text below the icon */
+  margin: 0 7px;
+}
+
+.iconContainer span{
+  text-align: 'center';
+  display: block; /* Make the span occupy a full line */
+  font-size: 12px;
+  padding:5px 5px;
+}
+
+.navigate {
+  display: flex;
+  width: 100%;
+  margin-top: 8px;
+  background-color: rgba(245, 245, 245, 0.349) ;/*rgba(241, 228, 228, 0.2); (164, 142, 114, 0.356) rgba(164, 142, 114, 0.219)*/
+  justify-content: space-around; 
+  /* height: 20px; */
+  /* text-shadow: 0px 1px 1px #000000, 0 0 0 #ffffff, 0px 1px 1px #000000; 3D effect */
+}
+
+.navigate a {
+  width: 100%;
+  display: flex;
+  padding: 0 10px;
+  text-align: 'center';
+  justify-content: space-between; 
+  text-decoration: none; /* Remove default underline */
+  color: rgb(206, 175, 130);/*rgb(82, 78, 78);*/
+  font-size: 14px;
+}
+.navigate a:hover,
+.navigate .active a {
+  font-size: 14px;
+  color:  rgb(168, 110, 35);
+  /* background-color: rgba(0, 0, 0, 0.2);  */
+  /* border-radius: 25px; */
+}

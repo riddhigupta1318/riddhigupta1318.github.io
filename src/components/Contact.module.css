@@ -1,0 +1,61 @@
+.contactSection {
+    background-color: #fff; /* White background */
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    height: auto;
+    padding-top: 40px;
+    background-image: url('../resources/f13.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .contactSection h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .contactSection p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+  }
+  
+  .contactForm label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    padding: 10px;
+    border: 1px solid #0a0808;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .contactForm textarea {
+    height: 150px;
+  }
+  
+  .contactForm button {
+    background-color: burlywood;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .contactForm button:hover {
+    background-color: #3e8e41;
+  }
+  
+ 
