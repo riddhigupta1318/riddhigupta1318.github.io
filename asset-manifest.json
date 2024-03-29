@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ff95429.css",
-    "main.js": "/static/js/main.2684886f.js",
+    "main.css": "/static/css/main.b923294f.css",
+    "main.js": "/static/js/main.15d9f946.js",
     "static/js/453.a8ae860d.chunk.js": "/static/js/453.a8ae860d.chunk.js",
     "static/media/rg_logo.png": "/static/media/rg_logo.7aad6553aa0173ab7b74.png",
     "static/media/wp7453551.jpg": "/static/media/wp7453551.cbf94710abfb099a6c9a.jpg",
     "static/media/Arrow-Down.gif": "/static/media/Arrow-Down.722c278340188668bb94.gif",
     "static/media/f13.jpeg": "/static/media/f13.e2a8c0e5e574ecc5617e.jpeg",
     "index.html": "/index.html",
-    "main.8ff95429.css.map": "/static/css/main.8ff95429.css.map",
-    "main.2684886f.js.map": "/static/js/main.2684886f.js.map",
+    "main.b923294f.css.map": "/static/css/main.b923294f.css.map",
+    "main.15d9f946.js.map": "/static/js/main.15d9f946.js.map",
     "453.a8ae860d.chunk.js.map": "/static/js/453.a8ae860d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ff95429.css",
-    "static/js/main.2684886f.js"
+    "static/css/main.b923294f.css",
+    "static/js/main.15d9f946.js"
   ]
 }
